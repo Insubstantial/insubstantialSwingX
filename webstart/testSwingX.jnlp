@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://insubstantial.github.com/insubstantialPeacock/webstart/"
+ href="testSwingX.jnlp">
+<information>
+  <title>SwingX demo - Substance look and feel</title>
+  <vendor>https://substance-swingx.dev.java.net/</vendor>
+  <description>SwingX demo - Substance look and feel</description> 
+  <description kind="short">SwingX demo - Substance look and feel</description> 
+  <offline-allowed/> 
+</information>
+<offline-allowed/>
+<security>
+  <all-permissions/>
+</security>
+<resources>
+  <property name="jnlp.packEnabled" value="true"/>
+  <j2se version="1.6+" />
+  <jar href="substance-swingx-tst.jar"/>
+  <jar href="substance-swingx.jar"/>
+  <jar href="swingx.jar"/>
+  <extension name="trident-core" href="http://insubstantial.github.com/halberd/webstart/trident-core.jnlp"/>
+  <extension name="substance-all" href="http://insubstantial.github.com/insubstantial/webstart//substance-all.jnlp"/>
+  <jar href="http://insubstantial.github.com/insubstantial/webstart/forms-1.2.0.jar"/>
+</resources>
+<application-desc main-class="test.TestSwingXFrame" />
+</jnlp>
